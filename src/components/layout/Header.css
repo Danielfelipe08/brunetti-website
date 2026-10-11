@@ -1,0 +1,179 @@
+.header-header {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: var(--z-header);
+  color: var(--text-primary-light);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-6);
+  min-height: 68px;
+}
+
+.header-brand {
+  display: grid;
+  place-items: center;
+  width: var(--space-8);
+  height: var(--space-8);
+  flex-shrink: 0;
+}
+
+/* A máscara de luminância apresenta o símbolo branco do PNG real sem
+   suas margens pretas. Preserva o desenho, a proporção e o arquivo original. */
+.header-logo-crop {
+  display: block;
+  width: 36px;
+  height: 48px;
+  background: currentColor;
+  mask-mode: luminance;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: 136px auto;
+}
+
+.header-desktop-nav,
+.header-desktop-cta {
+  display: none;
+}
+
+.header-links,
+.header-mobile-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-links a,
+.header-mobile-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  font-size: 0.875rem;
+}
+
+.header-header a[aria-disabled="true"] {
+  cursor: default;
+}
+
+.header-header button:disabled {
+  cursor: default;
+  transform: none;
+}
+
+.header-mobile-menu {
+  margin-left: auto;
+}
+
+.header-menu-toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: 48px;
+  cursor: pointer;
+  list-style: none;
+  font-size: 0.875rem;
+}
+
+.header-menu-toggle::-webkit-details-marker {
+  display: none;
+}
+
+.header-menu-icon {
+  width: 20px;
+  height: 8px;
+  border-block: 1px solid currentColor;
+}
+
+.header-close-label {
+  display: none;
+}
+
+.header-mobile-menu[open] .header-open-label {
+  display: none;
+}
+
+.header-mobile-menu[open] .header-close-label {
+  display: inline;
+}
+
+.header-mobile-menu[open] .header-menu-icon {
+  height: 1px;
+  border-bottom: 0;
+}
+
+.header-mobile-panel {
+  position: absolute;
+  inset: 100% 0 auto;
+  max-height: calc(100svh - 68px);
+  overflow-y: auto;
+  padding-block: var(--space-5) var(--space-6);
+  background: var(--color-ink);
+  border-top: 1px solid var(--border-dark);
+}
+
+.header-mobile-links li {
+  border-bottom: 1px solid var(--border-dark);
+}
+
+.header-mobile-links a {
+  width: 100%;
+  padding-block: var(--space-3);
+}
+
+.header-mobile-cta {
+  margin-top: var(--space-5);
+  width: 100%;
+}
+
+.header-skip-link {
+  position: absolute;
+  top: var(--space-3);
+  left: var(--page-padding);
+  z-index: var(--z-overlay);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-ivory);
+  color: var(--color-ink);
+  transform: translateY(-200%);
+}
+
+.header-skip-link:focus {
+  transform: translateY(0);
+}
+
+@media (min-width: 1024px) {
+  .header-inner {
+    min-height: 80px;
+    gap: var(--space-5);
+  }
+
+  .header-desktop-nav,
+  .header-desktop-cta {
+    display: flex;
+  }
+
+  .header-links {
+    display: flex;
+    gap: clamp(var(--space-5), 2.3vw, var(--space-6));
+  }
+
+  .header-desktop-cta.button.button--on-dark {
+    min-height: 44px;
+    padding-inline: var(--space-4);
+    background-color: transparent;
+    color: var(--text-primary-light);
+    border-color: var(--color-stone);
+    font-size: 0.875rem;
+  }
+
+  .header-desktop-cta.button.button--on-dark:not(:disabled):hover {
+    background-color: var(--color-carbon);
+    border-color: var(--color-ivory);
+  }
+
+  .header-mobile-menu {
+    display: none;
+  }
+}
