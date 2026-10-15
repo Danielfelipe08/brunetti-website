@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Reference media in docs/ (not needed in production or git remote)
+docs/**/*.mp4
+docs/**/*.mov
+docs/**/*.webm
+
+# Camera RAW files (original photography raw files, not used in web build)
+*.ARW
+*.arw
+*.CR2
+*.cr2
+*.NEF
+*.nef
+*.DNG
+*.dng
+

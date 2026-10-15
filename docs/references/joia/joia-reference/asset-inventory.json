@@ -1,0 +1,675 @@
+{
+  "inspected_on": "2026-10-11",
+  "assets": [
+    {
+      "kind": "stylesheet",
+      "url": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Hanken+Grotesk:wght@300;400;500&display=swap",
+      "pages": [
+        "before-after.html",
+        "clinic.html",
+        "contact.html",
+        "index.html",
+        "team.html",
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 7,
+      "alt_examples": []
+    },
+    {
+      "kind": "stylesheet",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/css/style.css?v=1.0.2",
+      "pages": [
+        "before-after.html",
+        "clinic.html",
+        "contact.html",
+        "index.html",
+        "team.html",
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 7,
+      "alt_examples": []
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/joia-stacked-gold.png",
+      "pages": [
+        "before-after.html",
+        "clinic.html",
+        "contact.html",
+        "index.html",
+        "team.html",
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 7,
+      "alt_examples": [
+        "JOIA"
+      ],
+      "loading": "default"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/joia-horizontal-ivory.png",
+      "pages": [
+        "before-after.html",
+        "clinic.html",
+        "contact.html",
+        "index.html",
+        "team.html",
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 7,
+      "alt_examples": [
+        "JOIA"
+      ],
+      "loading": "default"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/makeover-before.webp",
+      "pages": [
+        "before-after.html",
+        "index.html"
+      ],
+      "occurrences": 2,
+      "alt_examples": [
+        "Before treatment"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/makeover-after.webp",
+      "pages": [
+        "before-after.html",
+        "index.html"
+      ],
+      "occurrences": 2,
+      "alt_examples": [
+        "After a JOIA smile design"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/work-smile.webp",
+      "pages": [
+        "before-after.html",
+        "index.html",
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 4,
+      "alt_examples": [
+        "A finished smile design",
+        "A finished full smile design",
+        "Full smile design"
+      ],
+      "loading": "default",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/moment-1.webp",
+      "pages": [
+        "before-after.html",
+        "index.html"
+      ],
+      "occurrences": 5,
+      "alt_examples": [
+        "A candid smile",
+        "A candid laugh"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/moment-4.webp",
+      "pages": [
+        "before-after.html",
+        "index.html"
+      ],
+      "occurrences": 3,
+      "alt_examples": [
+        "A happy patient",
+        "A happy moment in warm light"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/moment-5.webp",
+      "pages": [
+        "before-after.html",
+        "index.html"
+      ],
+      "occurrences": 3,
+      "alt_examples": [
+        "A genuine smile"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/moment-7.webp",
+      "pages": [
+        "before-after.html",
+        "index.html"
+      ],
+      "occurrences": 3,
+      "alt_examples": [
+        "A radiant smile"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/moment-6.webp",
+      "pages": [
+        "before-after.html",
+        "index.html"
+      ],
+      "occurrences": 3,
+      "alt_examples": [
+        "Laughing together"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/moment-8.webp",
+      "pages": [
+        "before-after.html",
+        "index.html"
+      ],
+      "occurrences": 3,
+      "alt_examples": [
+        "A natural smile"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/moment-9.webp",
+      "pages": [
+        "before-after.html",
+        "index.html"
+      ],
+      "occurrences": 3,
+      "alt_examples": [
+        "Pure joy"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/moment-2.webp",
+      "pages": [
+        "before-after.html",
+        "index.html"
+      ],
+      "occurrences": 3,
+      "alt_examples": [
+        "A shared moment"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.preweb.site/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+      "pages": [
+        "before-after.html",
+        "clinic.html",
+        "contact.html",
+        "index.html",
+        "team.html",
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 7,
+      "alt_examples": []
+    },
+    {
+      "kind": "script",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/vendor/gsap.min.js",
+      "pages": [
+        "before-after.html",
+        "clinic.html",
+        "contact.html",
+        "index.html",
+        "team.html",
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 7,
+      "alt_examples": []
+    },
+    {
+      "kind": "script",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/vendor/ScrollTrigger.min.js",
+      "pages": [
+        "before-after.html",
+        "clinic.html",
+        "contact.html",
+        "index.html",
+        "team.html",
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 7,
+      "alt_examples": []
+    },
+    {
+      "kind": "script",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/vendor/SplitText.min.js",
+      "pages": [
+        "before-after.html",
+        "clinic.html",
+        "contact.html",
+        "index.html",
+        "team.html",
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 7,
+      "alt_examples": []
+    },
+    {
+      "kind": "script",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/vendor/ScrollToPlugin.min.js",
+      "pages": [
+        "before-after.html",
+        "clinic.html",
+        "contact.html",
+        "index.html",
+        "team.html",
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 7,
+      "alt_examples": []
+    },
+    {
+      "kind": "script",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/vendor/MorphSVGPlugin.min.js",
+      "pages": [
+        "before-after.html",
+        "clinic.html",
+        "contact.html",
+        "index.html",
+        "team.html",
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 7,
+      "alt_examples": []
+    },
+    {
+      "kind": "script",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/vendor/DrawSVGPlugin.min.js",
+      "pages": [
+        "before-after.html",
+        "clinic.html",
+        "contact.html",
+        "index.html",
+        "team.html",
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 7,
+      "alt_examples": []
+    },
+    {
+      "kind": "script",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/vendor/Flip.min.js",
+      "pages": [
+        "before-after.html",
+        "clinic.html",
+        "contact.html",
+        "index.html",
+        "team.html",
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 7,
+      "alt_examples": []
+    },
+    {
+      "kind": "script",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/vendor/lenis.min.js",
+      "pages": [
+        "before-after.html",
+        "clinic.html",
+        "contact.html",
+        "index.html",
+        "team.html",
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 7,
+      "alt_examples": []
+    },
+    {
+      "kind": "script",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/js/main.js?v=1.0.2",
+      "pages": [
+        "before-after.html",
+        "clinic.html",
+        "contact.html",
+        "index.html",
+        "team.html",
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 7,
+      "alt_examples": []
+    },
+    {
+      "kind": "script",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/js/pages/page-intro.js?v=1.0.2",
+      "pages": [
+        "before-after.html",
+        "clinic.html",
+        "contact.html",
+        "team.html",
+        "treatments-veneers.html"
+      ],
+      "occurrences": 5,
+      "alt_examples": []
+    },
+    {
+      "kind": "script",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/js/pages/results.js?v=1.0.2",
+      "pages": [
+        "before-after.html"
+      ],
+      "occurrences": 1,
+      "alt_examples": []
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/manifesto-detail-2.webp",
+      "pages": [
+        "clinic.html",
+        "index.html"
+      ],
+      "occurrences": 2,
+      "alt_examples": [
+        "Porcelain veneers in our lab"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/manifesto-detail-1.webp",
+      "pages": [
+        "clinic.html",
+        "index.html"
+      ],
+      "occurrences": 3,
+      "alt_examples": [
+        "Hand-layering porcelain",
+        "The JOIA porcelain lab"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/clinic-reception.webp",
+      "pages": [
+        "clinic.html",
+        "index.html"
+      ],
+      "occurrences": 2,
+      "alt_examples": [
+        "JOIA reception"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/clinic-consult.webp",
+      "pages": [
+        "clinic.html",
+        "contact.html",
+        "index.html"
+      ],
+      "occurrences": 3,
+      "alt_examples": [
+        "JOIA consultation lounge",
+        "The JOIA consultation lounge"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/clinic-suite2.webp",
+      "pages": [
+        "clinic.html",
+        "index.html"
+      ],
+      "occurrences": 2,
+      "alt_examples": [
+        "JOIA treatment suite"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/js/pages/clinic.js?v=1.0.2",
+      "pages": [
+        "clinic.html"
+      ],
+      "occurrences": 1,
+      "alt_examples": []
+    },
+    {
+      "kind": "script",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/js/pages/contact.js?v=1.0.2",
+      "pages": [
+        "contact.html"
+      ],
+      "occurrences": 1,
+      "alt_examples": []
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/hero.webp",
+      "pages": [
+        "index.html"
+      ],
+      "occurrences": 1,
+      "alt_examples": [
+        "A radiant, natural smile in warm window light"
+      ],
+      "loading": "default",
+      "decoding": "async",
+      "priority": "high"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/manifesto-detail-3.webp",
+      "pages": [
+        "index.html"
+      ],
+      "occurrences": 1,
+      "alt_examples": [
+        "A finished, natural smile"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/moment-3.webp",
+      "pages": [
+        "index.html"
+      ],
+      "occurrences": 2,
+      "alt_examples": [
+        "Confidence, restored"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/treatment-veneers.webp",
+      "pages": [
+        "index.html",
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 3,
+      "alt_examples": [
+        "Porcelain veneer detail"
+      ],
+      "loading": "default",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/treatment-whitening.webp",
+      "pages": [
+        "index.html",
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 3,
+      "alt_examples": [
+        "Whitening detail",
+        "Teeth whitening"
+      ],
+      "loading": "default",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/dentist-1.webp",
+      "pages": [
+        "index.html",
+        "team.html"
+      ],
+      "occurrences": 3,
+      "alt_examples": [
+        "Dr. Camille Doré"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/dentist-2.webp",
+      "pages": [
+        "index.html",
+        "team.html"
+      ],
+      "occurrences": 3,
+      "alt_examples": [
+        "Dr. Adrian Vance"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/dentist-3.webp",
+      "pages": [
+        "index.html",
+        "team.html"
+      ],
+      "occurrences": 3,
+      "alt_examples": [
+        "Dr. Lena Hart"
+      ],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/invite-portrait.webp",
+      "pages": [
+        "index.html"
+      ],
+      "occurrences": 1,
+      "alt_examples": [],
+      "loading": "lazy",
+      "decoding": "async"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/js/pages/team.js?v=1.0.2",
+      "pages": [
+        "team.html"
+      ],
+      "occurrences": 1,
+      "alt_examples": []
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/treatment-invisalign.webp",
+      "pages": [
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 2,
+      "alt_examples": [
+        "Clear aligners",
+        "A clear aligner tray"
+      ],
+      "loading": "default",
+      "decoding": "async"
+    },
+    {
+      "kind": "image",
+      "url": "https://www.preweb.site/projects/joia/wp-content/uploads/2026/06/treatment-implants.webp",
+      "pages": [
+        "treatments-veneers.html",
+        "treatments.html"
+      ],
+      "occurrences": 2,
+      "alt_examples": [
+        "Implants and restorative",
+        "A ceramic dental restoration"
+      ],
+      "loading": "default",
+      "decoding": "async"
+    },
+    {
+      "kind": "script",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/js/pages/detail.js?v=1.0.2",
+      "pages": [
+        "treatments-veneers.html"
+      ],
+      "occurrences": 1,
+      "alt_examples": []
+    },
+    {
+      "kind": "script",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/js/pages/treatments.js?v=1.0.2",
+      "pages": [
+        "treatments.html"
+      ],
+      "occurrences": 1,
+      "alt_examples": []
+    }
+  ]
+}

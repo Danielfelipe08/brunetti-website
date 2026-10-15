@@ -1,0 +1,158 @@
+/* JOIA #makeover geometry and timing, isolated from the preceding scenes. */
+.makeover-track {
+  --makeover-ivory: #f6f1e7;
+  --makeover-sand: #e8dcc6;
+  --makeover-espresso: #1a1714;
+  --makeover-gold: #c8a35b;
+  --makeover-gold-soft: #d9c29a;
+  --makeover-gold-text: #7a5e22;
+  --makeover-gutter: clamp(1.25rem, 4vw, 5rem);
+  background: var(--makeover-ivory);
+}
+.makeover-scene {
+  position: relative;
+  display: flex;
+  align-items: center;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 100svh;
+  padding-block: clamp(6rem, 12vh, 10rem);
+  background: var(--makeover-ivory);
+  color: var(--makeover-espresso);
+}
+.makeover-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: clamp(.8rem, 1.4vw, 1.6rem);
+  align-items: center;
+  width: 100%;
+  max-width: 1680px;
+  min-height: 84svh;
+  margin-inline: auto;
+  padding-inline: var(--makeover-gutter);
+}
+.makeover-label {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  margin: 0;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-family: var(--font-hero-serif), Georgia, serif;
+  font-size: clamp(1rem, 1.6vw, 1.5rem);
+  text-transform: uppercase;
+  color: var(--makeover-gold-text);
+  z-index: 5;
+}
+.makeover-index {
+  grid-column: 1 / 12;
+  grid-row: 1;
+  align-self: start;
+  justify-self: end;
+  font-family: var(--font-hero-serif), Georgia, serif;
+  font-style: italic;
+  font-size: clamp(5rem, 14vw, 14rem);
+  line-height: .72;
+  color: rgba(168, 130, 60, .14);
+  pointer-events: none;
+}
+.makeover-portrait {
+  position: relative;
+  grid-column: 2 / 12;
+  grid-row: 1;
+  z-index: 2;
+  overflow: hidden;
+  min-height: min(78svh, 940px);
+  border: 1px solid rgba(168, 130, 60, .34);
+  box-shadow: 0 30px 80px rgba(26, 23, 20, .15);
+  background: var(--makeover-espresso);
+}
+.makeover-before, .makeover-after { position: absolute; inset: 0; }
+.makeover-before { background: var(--makeover-espresso); color: var(--makeover-ivory); }
+.makeover-after { background: var(--makeover-sand); color: var(--makeover-espresso); }
+.makeover-portrait img { object-fit: cover; object-position: 50% 42%; }
+/* Real clinical photographs retain their original color and contrast. */
+.makeover-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .6rem;
+  height: 100%;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  font-size: clamp(.64rem, .8vw, .76rem);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.makeover-placeholder span { font-family: var(--font-hero-serif), Georgia, serif; font-size: clamp(1.4rem, 3vw, 3rem); letter-spacing: -.02em; text-transform: none; }
+.makeover-wipe {
+  position: absolute;
+  inset: 0 auto 0 100%;
+  z-index: 4;
+  width: 2px;
+  transform: translateX(-2px);
+  background: linear-gradient(to bottom, transparent, var(--makeover-gold-soft) 15%, #fff2c2 50%, var(--makeover-gold) 85%, transparent);
+  box-shadow: 0 0 20px rgba(217, 194, 154, .95), 0 0 54px rgba(200, 163, 91, .5);
+}
+.makeover-wipe i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 4px;
+  height: 64px;
+  transform: translate(-50%, -50%);
+  background: var(--makeover-ivory);
+  border-radius: 100px;
+  box-shadow: 0 0 12px rgba(217, 194, 154, .8);
+}
+.makeover-glint {
+  position: absolute;
+  left: 55%;
+  top: 42%;
+  z-index: 5;
+  width: 42px;
+  height: 42px;
+  background: radial-gradient(circle at 50% 50%, #fff8de 0%, #ffe9a8 38%, var(--makeover-gold) 72%, transparent 80%);
+  clip-path: polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0% 50%, 40% 40%);
+  filter: drop-shadow(0 0 8px rgba(255, 243, 200, 1)) drop-shadow(0 0 22px rgba(217, 194, 154, .95));
+}
+.makeover-caption {
+  grid-column: 7 / 12;
+  grid-row: 1;
+  align-self: end;
+  z-index: 6;
+  max-width: 31ch;
+  padding: 1.3rem 1.5rem;
+  margin-bottom: 4vh;
+  color: var(--makeover-ivory);
+  background: linear-gradient(90deg, rgba(26, 23, 20, .82), rgba(26, 23, 20, .28));
+}
+.makeover-eyebrow { margin: 0; color: var(--makeover-gold); font-size: clamp(.64rem, .8vw, .76rem); font-weight: 500; letter-spacing: .12em; text-transform: uppercase; }
+.makeover-title { margin: .8rem 0 0; font-family: var(--font-hero-serif), Georgia, serif; font-weight: 500; font-size: clamp(1.8rem, 3.4vw, 4rem); line-height: .96; text-shadow: 0 2px 24px rgba(0, 0, 0, .34); }
+.makeover-title em { color: var(--makeover-gold); }
+.makeover-disclaimer { margin: .9rem 0 0; font-size: .78rem; color: rgba(246, 241, 231, .78); }
+
+@media (min-width: 861px) and (prefers-reduced-motion: no-preference) {
+  .makeover-track[data-pinned="true"] { height: calc(var(--makeover-height) + 160vh); }
+  .makeover-track[data-pinned="true"] .makeover-scene { position: sticky; top: 0; }
+}
+@media (max-width: 860px), (prefers-reduced-motion: reduce) {
+  .makeover-scene { display: block; min-height: auto; padding-block: clamp(5rem, 12vh, 7rem); }
+  .makeover-grid { display: flex; flex-direction: column; align-items: stretch; gap: 1.6rem; min-height: auto; }
+  .makeover-label { writing-mode: horizontal-tb; transform: none; }
+  .makeover-index { position: absolute; left: var(--makeover-gutter); top: 4rem; }
+  .makeover-portrait { min-height: auto; aspect-ratio: 4 / 5; }
+  .makeover-after { clip-path: none; }
+  .makeover-before { inset: 1rem auto auto 1rem; width: 34%; aspect-ratio: 4 / 5; z-index: 6; border: 1px solid rgba(217, 194, 154, .8); box-shadow: 0 16px 34px rgba(26, 23, 20, .28); }
+  .makeover-before .makeover-placeholder { padding: .5rem; font-size: .55rem; letter-spacing: .06em; }
+  .makeover-before .makeover-placeholder span { font-size: 1.2rem; }
+  .makeover-wipe { display: none; }
+  .makeover-caption { max-width: 34ch; margin: 0; padding: 0; color: var(--makeover-espresso); background: none; }
+  .makeover-disclaimer { color: #6e6557; }
+  .makeover-eyebrow { color: var(--makeover-gold-text); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .makeover-glint { display: none; }
+}

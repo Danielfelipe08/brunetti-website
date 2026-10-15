@@ -1,0 +1,101 @@
+{
+  "inspected_on": "2026-10-11",
+  "files": [
+    {
+      "file": "before-after.html",
+      "url": "https://www.preweb.site/projects/joia/before-after/",
+      "bytes": 15060,
+      "sha256": "338ed603debab5522aab2f6170649f2db486ddd738503f7b8ede55d36eddf71e"
+    },
+    {
+      "file": "clinic.html",
+      "url": "https://www.preweb.site/projects/joia/clinic/",
+      "bytes": 14394,
+      "sha256": "e5b2c0c101632507ec97da2484d2b93624f2d5da6eb9284e7bdcbc70f633a20a"
+    },
+    {
+      "file": "clinic.js",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/js/pages/clinic.js?v=1.0.2",
+      "bytes": 1207,
+      "sha256": "f5a0026bcc9500d9d6334ffbb8e7caf65d7383149c675270c5daec29c1c9cb4e"
+    },
+    {
+      "file": "contact.html",
+      "url": "https://www.preweb.site/projects/joia/contact/",
+      "bytes": 11346,
+      "sha256": "de99626620722c76b29a456879dd9ba823e39df1a8662ef447f45b6053a91956"
+    },
+    {
+      "file": "contact.js",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/js/pages/contact.js?v=1.0.2",
+      "bytes": 1574,
+      "sha256": "2b4d5e7187ba57ace72bcc5a52d8f646f3c650b8851c37176a70e986254f337c"
+    },
+    {
+      "file": "detail.js",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/js/pages/detail.js?v=1.0.2",
+      "bytes": 2122,
+      "sha256": "9a40bcbe59cc7f0ecae54607c0e7219217de28918b2bdb576cd49a4b1a9b55b0"
+    },
+    {
+      "file": "index.html",
+      "url": "https://www.preweb.site/projects/joia/",
+      "bytes": 26435,
+      "sha256": "b8e305efca5c79304cf003cac067368c5ded51c804e1475bcbf226a8d60674f7"
+    },
+    {
+      "file": "main.js",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/js/main.js?v=1.0.2",
+      "bytes": 30103,
+      "sha256": "6c2ccfb9d249897a78d469913020c3e5f8c4ac97aa6a46bf921b97f86adfba23"
+    },
+    {
+      "file": "page-intro.js",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/js/pages/page-intro.js?v=1.0.2",
+      "bytes": 1466,
+      "sha256": "c0dd771460fdec21bb1f7a8387b1876ac9013b27b3054fd8d58170822a65a0d9"
+    },
+    {
+      "file": "results.js",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/js/pages/results.js?v=1.0.2",
+      "bytes": 3196,
+      "sha256": "8dd4767a2ee621b2789cf5e3ec82f3914c9b88bbfebd43692319cb05b2b86f12"
+    },
+    {
+      "file": "style.css",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/css/style.css?v=1.0.2",
+      "bytes": 63789,
+      "sha256": "f073dc46673573540b309bda6d7fbeb7e538ab621cc1c4f5108056a554c5fd72"
+    },
+    {
+      "file": "team.html",
+      "url": "https://www.preweb.site/projects/joia/team/",
+      "bytes": 16477,
+      "sha256": "daa98df93f34d6f6f248f011f720dd84981cbbf06afe5dad38e0c746d2949506"
+    },
+    {
+      "file": "team.js",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/js/pages/team.js?v=1.0.2",
+      "bytes": 1263,
+      "sha256": "d850a5fdc598cbb8f1e43ab3fbc099cc2f0eb32fbd4d77d6e90574b30ca4de6c"
+    },
+    {
+      "file": "treatments-veneers.html",
+      "url": "https://www.preweb.site/projects/joia/treatments/veneers/",
+      "bytes": 17009,
+      "sha256": "095aa64474454f07e2aa94853b443f9c5152c07bd93be4f83273b4d8dc69b47b"
+    },
+    {
+      "file": "treatments.html",
+      "url": "https://www.preweb.site/projects/joia/treatments/",
+      "bytes": 18205,
+      "sha256": "076431caccd059d8796bfa1443e7a3f0d4b0e633f14df0b7dfbed368a2dad876"
+    },
+    {
+      "file": "treatments.js",
+      "url": "https://www.preweb.site/projects/joia/wp-content/plugins/joia-site/assets/js/pages/treatments.js?v=1.0.2",
+      "bytes": 5107,
+      "sha256": "2014ab42a73509ec7eccdeb171249a18688542082b5b4a2bfb4fad207a5d57e8"
+    }
+  ]
+}

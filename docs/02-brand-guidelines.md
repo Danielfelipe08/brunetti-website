@@ -1,68 +1,71 @@
-# Brunetti Odontologia — Brand & Visual Guidelines
+# Brunetti Odontologia — Brand Guidelines
 
 ## 1. Objetivo deste documento
 
-Este documento define a direção conceitual e visual que deverá orientar todas as interfaces digitais da Brunetti Odontologia.
+Este documento define exclusivamente a identidade, a personalidade e os princípios de marca da Brunetti Odontologia que deverão orientar a adaptação do sistema visual do Joia.
 
-Ele deve ser utilizado como referência durante:
+Este arquivo não define o Design System técnico do site.
 
-- criação de wireframes;
-- design de interfaces;
-- seleção de imagens;
-- criação de componentes;
-- definição de cores;
-- escolha tipográfica;
-- animações;
-- produção de novos materiais visuais;
-- implementação frontend;
-- revisões realizadas por inteligência artificial.
+Layout, grid, tipografia, espaçamentos, componentes, animações, comportamento de scroll, responsividade e demais decisões de interface devem seguir prioritariamente:
 
-O objetivo é impedir que diferentes designers, desenvolvedores ou agentes de IA interpretem a marca de maneiras conflitantes.
+- `docs/00-implementation-rules.md`
+- `docs/references/joia/joia-reference/JOIA-BRUNETTI-DESIGN-SYSTEM.md`
+- `docs/references/joia/joia-reference/tokens.json`
+
+Este documento deve responder principalmente à seguinte pergunta:
+
+> Como o sistema visual do Joia deve ser preenchido e interpretado para parecer Brunetti?
 
 ---
 
 # 2. Essência da marca
 
-A identidade da Brunetti deverá ser construída a partir de três pilares principais:
+A identidade da Brunetti é sustentada por três pilares principais:
 
 ## Hotelaria de alto luxo
 
+A experiência da clínica é inspirada em ambientes de hotelaria premium, com atenção aos detalhes, acolhimento, conforto e atendimento personalizado.
+
 ## Arte
+
+A arte está presente na arquitetura, no mobiliário, nos objetos, na estética e na própria concepção do sorriso.
 
 ## Tecnologia
 
-Esses três conceitos devem aparecer de maneira integrada.
+A tecnologia faz parte da experiência clínica de maneira integrada, sofisticada e funcional.
 
-A Brunetti não deverá parecer:
+Esses três pilares devem coexistir.
+
+A Brunetti não deve parecer:
 
 > uma clínica tentando parecer luxuosa.
 
-Ela deverá parecer:
+Ela deve parecer:
 
-> uma experiência de alto padrão onde a odontologia faz parte de um universo de arquitetura, arte, tecnologia e atendimento personalizado.
+> uma experiência de alto padrão em que odontologia, arquitetura, arte, tecnologia e atendimento personalizado fazem parte do mesmo universo.
 
 ---
 
-# 3. Personalidade visual
+# 3. Personalidade da marca
 
-A marca deverá transmitir:
+A Brunetti deve transmitir:
 
 - sofisticação;
 - exclusividade;
 - elegância;
-- segurança;
 - confiança;
+- segurança;
 - inovação;
-- tecnologia;
 - calma;
+- precisão;
 - atenção aos detalhes;
-- experiência personalizada;
 - maturidade;
-- autoridade.
+- autoridade;
+- atendimento personalizado.
 
-A comunicação visual deverá ser refinada sem ser ostensiva.
+A comunicação deve ser refinada sem ser ostensiva.
 
-O luxo deverá ser percebido pelos detalhes e pela qualidade da composição, e não pelo excesso de elementos decorativos.
+O luxo deve ser percebido pela qualidade das escolhas, e não pelo excesso de elementos decorativos.
 
 ---
 
@@ -70,11 +73,11 @@ O luxo deverá ser percebido pelos detalhes e pela qualidade da composição, e 
 
 ## A clínica como experiência
 
-O site deverá funcionar como uma extensão da experiência física da Brunetti.
+O site deve funcionar como uma extensão digital da experiência física da Brunetti.
 
-A percepção desejada ao entrar no site deverá se aproximar da sensação de entrar pela primeira vez na própria clínica.
+O ambiente físico da clínica é um dos principais ativos da marca.
 
-A arquitetura digital deverá refletir elementos presentes no ambiente físico:
+Elementos recorrentes da experiência Brunetti incluem:
 
 - madeira;
 - pedra;
@@ -86,116 +89,69 @@ A arquitetura digital deverá refletir elementos presentes no ambiente físico:
 - objetos de design;
 - tecnologia.
 
-O ambiente físico da clínica deverá ser tratado como um ativo central da marca.
+Esses elementos devem ser usados como matéria-prima para adaptar o sistema visual do Joia à Brunetti.
 
 ---
 
-# 5. Direção estética
+# 5. Direção estética da Brunetti
 
-A direção estética deverá seguir os seguintes princípios:
+A Brunetti deve ser apresentada através de:
 
-### Minimalismo sofisticado
+- minimalismo sofisticado;
+- fotografia protagonista;
+- composição editorial;
+- arquitetura;
+- materialidade;
+- luxo silencioso;
+- arte;
+- espaço negativo;
+- equilíbrio;
+- autenticidade.
 
-Poucos elementos por tela.
+O site deve evitar excesso de elementos simultâneos.
 
-Boa utilização de espaço negativo.
+Sempre que possível, a própria clínica deve comunicar valor através de suas imagens, materiais e ambientes.
 
-Hierarquia visual clara.
-
-Evitar excesso de informações simultâneas.
-
----
-
-### Fotografia protagonista
-
-As imagens reais da Brunetti deverão possuir grande destaque.
-
-Preferir:
-
-- fotografias em tela cheia;
-- imagens grandes;
-- composições editoriais;
-- detalhes arquitetônicos;
-- enquadramentos cinematográficos.
-
-Sempre que possível, deixar o próprio ambiente comunicar valor em vez de adicionar muitos elementos gráficos.
+A odontologia não precisa aparecer visualmente em todas as cenas.
 
 ---
 
-### Design editorial
+# 6. Referências conceituais da marca
 
-O site poderá se aproximar visualmente de:
-
-- revistas de arquitetura;
-- revistas de design;
-- editoriais de moda;
-- hotelaria premium;
-- marcas de lifestyle de luxo.
-
-A odontologia não precisa aparecer visualmente em todas as seções.
-
----
-
-### Elegância silenciosa
-
-O site deverá transmitir luxo de maneira discreta.
-
-Evitar recursos visuais que tentem explicitamente comunicar riqueza.
-
-A sofisticação deverá surgir através de:
-
-- composição;
-- tipografia;
-- fotografia;
-- proporções;
-- materiais;
-- animações;
-- espaço.
-
----
-
-# 6. Referências conceituais
-
-Referências mencionadas pela cliente:
+As referências conceituais mencionadas para a Brunetti incluem:
 
 ## Fasano
 
-Principalmente:
+Principalmente por:
 
-- uso de madeira;
 - sofisticação discreta;
+- madeira;
 - arquitetura;
 - materiais naturais;
 - iluminação;
 - hotelaria premium.
 
----
-
 ## Hotel Unique
 
-Principalmente:
+Principalmente por:
 
 - minimalismo;
 - arquitetura marcante;
-- identidade visual contemporânea;
+- identidade contemporânea;
 - experiência.
-
----
 
 ## Karma Itaíba
 
-Principalmente:
+Principalmente por:
 
-- presença de madeira;
+- madeira;
 - vegetação;
 - materiais naturais;
 - integração entre sofisticação e natureza.
 
----
-
 ## Casa Cor
 
-Foi mencionada como uma referência próxima ao universo visual da clínica por reunir:
+Principalmente pela relação entre:
 
 - arquitetura;
 - design;
@@ -203,25 +159,25 @@ Foi mencionada como uma referência próxima ao universo visual da clínica por 
 - arte;
 - interiores.
 
+Essas referências são conceituais.
+
+Elas não devem substituir o Joia como referência principal de layout, composição ou interação.
+
 ---
 
-# 7. O que a marca NÃO deve parecer
+# 7. O que a Brunetti NÃO deve parecer
 
-Evitar explicitamente:
+## Clínica hospitalar
 
-### Clínica hospitalar
+Evitar linguagem visual dominada por:
 
-Não utilizar uma estética baseada predominantemente em:
-
-- branco;
+- branco clínico;
 - azul hospitalar;
-- ícones odontológicos genéricos;
-- equipamentos odontológicos como principal recurso visual;
-- pessoas utilizando jalecos como linguagem visual dominante.
+- ícones odontológicos;
+- equipamentos como principal recurso visual;
+- jalecos como linguagem dominante.
 
----
-
-### Clínica odontológica genérica
+## Clínica odontológica genérica
 
 Evitar:
 
@@ -232,168 +188,71 @@ Evitar:
 - stock photos odontológicas;
 - excesso de imagens de procedimentos.
 
----
-
-### Luxo ostensivo
+## Luxo ostensivo
 
 Evitar:
 
 - dourado excessivo;
-- mármore artificial;
 - brilho exagerado;
 - efeitos metálicos;
-- elementos visuais associados a Dubai;
-- estética de “luxury template”.
+- mármore artificial;
+- estética associada a “Dubai”;
+- aparência de template genérico de luxo.
 
-A cliente explicitamente rejeitou a utilização desse tipo de referência.
+## Tecnologia futurista genérica
 
----
-
-### Tecnologia futurista genérica
-
-Apesar da tecnologia ser um dos pilares da Brunetti, evitar:
+Evitar:
 
 - neon;
-- interfaces sci-fi;
 - hologramas;
+- interfaces sci-fi;
 - linhas digitais exageradas;
 - azul tecnológico genérico.
 
-A tecnologia deverá parecer integrada à experiência, e não transformá-la em uma empresa de software.
+A tecnologia deve estar integrada à experiência e não transformar a Brunetti visualmente em uma empresa de software.
 
 ---
 
-# 8. Materiais e texturas
+# 8. Materiais e atmosfera
 
-A identidade pode buscar inspiração nos próprios materiais da clínica.
+A direção visual da Brunetti deve buscar inspiração nos próprios materiais da clínica.
 
 ## Madeira
 
-Elemento extremamente importante.
+Elemento importante da identidade espacial.
 
-Pode influenciar:
-
-- tonalidades;
-- backgrounds;
-- fotografia;
-- texturas discretas;
-- composição.
-
----
+Pode aparecer através da fotografia, dos ambientes e das tonalidades naturais presentes na clínica.
 
 ## Pedra
 
-Pode contribuir para:
+Contribui para percepção de:
 
-- sensação de permanência;
+- permanência;
 - sofisticação;
 - naturalidade;
 - materialidade.
 
----
-
 ## Natureza
 
-A presença de vegetação e elementos naturais poderá ajudar a equilibrar tecnologia e sofisticação.
-
----
+Vegetação e elementos naturais ajudam a equilibrar tecnologia e sofisticação.
 
 ## Arte
 
-Esculturas, quadros, mobiliário e objetos de design poderão aparecer como elementos de composição.
+Esculturas, quadros, mobiliário e objetos de design fazem parte da identidade.
 
-A arte deverá ser tratada como parte da identidade, e não apenas decoração.
-
----
-
-# 9. Paleta conceitual
-
-A paleta definitiva deverá ser desenvolvida posteriormente a partir da identidade atual e das fotografias da clínica.
-
-Entretanto, conceitualmente deverão ser priorizadas tonalidades relacionadas a:
-
-- madeira;
-- pedra;
-- terra;
-- creme;
-- off-white;
-- tons naturais;
-- preto;
-- grafite;
-- tons neutros sofisticados.
-
-Possíveis cores de apoio poderão surgir de elementos reais da arquitetura.
-
-Evitar definir cores artificiais apenas para “parecer odontologia”.
+A arte não deve ser tratada apenas como decoração.
 
 ---
 
-# 10. Uso de branco
+# 9. Fotografia
 
-O branco poderá existir, porém não deverá dominar o projeto a ponto de criar aparência hospitalar.
+A fotografia é um dos principais elementos da identidade digital da Brunetti.
 
-Quando utilizado, deverá se aproximar mais de:
+Prioridade absoluta para materiais reais da clínica.
 
-- off-white;
-- creme;
-- tons quentes muito claros;
-- superfícies editoriais.
+## Arquitetura
 
-O contraste com madeira, fotografia e tons escuros ajudará a evitar estética clínica.
-
----
-
-# 11. Tipografia
-
-A tipografia definitiva ainda será escolhida.
-
-Entretanto, deverá seguir os seguintes princípios:
-
-## Títulos
-
-Podem possuir:
-
-- personalidade editorial;
-- elegância;
-- presença;
-- contraste;
-- características associadas a moda, arquitetura ou hotelaria.
-
-Uma serif sofisticada poderá ser explorada.
-
----
-
-## Textos e interface
-
-Devem priorizar:
-
-- legibilidade;
-- simplicidade;
-- modernidade.
-
-Uma fonte sans-serif limpa poderá complementar os títulos.
-
----
-
-## Combinação desejada
-
-Possível direção:
-
-**Serif editorial + Sans-serif contemporânea**
-
-Essa combinação deverá ser testada posteriormente no Design System.
-
----
-
-# 12. Fotografia
-
-A fotografia será um dos principais elementos da marca digital.
-
-Priorizar materiais reais.
-
-## Fotografar/exibir:
-
-### Arquitetura
+Priorizar imagens de:
 
 - fachada;
 - recepção;
@@ -402,40 +261,50 @@ Priorizar materiais reais.
 - consultórios;
 - laboratório.
 
-### Materiais
+## Materiais e detalhes
+
+Priorizar:
 
 - madeira;
 - pedra;
 - iluminação;
-- mobiliário.
+- mobiliário;
+- texturas;
+- detalhes arquitetônicos.
 
-### Arte
+## Arte
+
+Registrar:
 
 - esculturas;
 - quadros;
 - objetos;
+- mobiliário;
 - peças de design.
 
-### Experiência
+## Experiência
+
+Mostrar, quando houver material adequado:
 
 - atendimento;
 - detalhes da recepção;
-- bebidas;
-- cardápio;
 - preparação do ambiente;
-- interação humana.
+- interação humana;
+- hospitalidade.
 
-### Tecnologia
+## Tecnologia
 
-- scanner;
+Mostrar:
+
 - laboratório;
+- scanner;
 - Air Flow;
 - equipamentos;
 - processos digitais.
 
 ---
 
-# 13. Direção fotográfica
+# 10. Direção fotográfica
 
 Quando novos materiais forem produzidos, priorizar:
 
@@ -443,281 +312,199 @@ Quando novos materiais forem produzidos, priorizar:
 - contraste controlado;
 - profundidade;
 - texturas;
-- movimentos lentos;
 - enquadramentos arquitetônicos;
 - closes de detalhes;
-- planos abertos do ambiente.
+- planos abertos do ambiente;
+- retratos naturais e editoriais.
 
 Evitar:
 
 - aparência de catálogo médico;
-- iluminação clínica excessivamente branca;
+- iluminação excessivamente clínica;
 - poses artificiais;
-- fotografias genéricas de equipe alinhada.
+- fotografias genéricas de equipe alinhada;
+- bancos de imagem odontológicos.
+
+As imagens reais da Brunetti devem sempre ter prioridade.
 
 ---
 
-# 14. Vídeo
+# 11. Arte como narrativa
 
-Vídeos deverão ser utilizados como elemento imersivo.
+A arte pode aparecer também na narrativa verbal da marca.
 
-Possíveis aplicações:
-
-- hero;
-- transições entre seções;
-- apresentação da clínica;
-- laboratório;
-- tecnologia;
-- experiência.
-
-O conteúdo produzido por Emanuel deverá ser considerado prioritário.
-
-Sempre avaliar impacto em performance antes de utilizar vídeos em grande escala.
-
----
-
-# 15. Arte como narrativa
-
-O conceito de arte poderá aparecer não apenas visualmente, mas também narrativamente.
-
-A reunião trouxe a ideia de que diferentes formas de arte se encontram na Brunetti:
+Conceitos possíveis:
 
 - arte do sorriso;
-- arte da beleza;
+- arte da estética;
 - arte da arquitetura;
 - arte do design;
 - arte da natureza;
 - arte do mobiliário.
 
-Essa ideia poderá eventualmente originar:
+Esses conceitos podem orientar:
 
 - headlines;
 - storytelling;
-- transições entre seções;
+- textos institucionais;
 - campanhas;
-- conceitos visuais.
+- transições conceituais entre conteúdos.
 
-Entretanto, nenhuma tagline deverá ser definida como oficial sem validação posterior.
+Nenhuma tagline deve ser considerada oficial sem validação posterior.
 
 ---
 
-# 16. Tecnologia
+# 12. Tecnologia como benefício
 
-A tecnologia deverá ser apresentada como:
+A tecnologia deve ser apresentada como:
 
-**sofisticada + funcional + invisivelmente integrada à experiência.**
+> sofisticada, funcional e integrada à experiência.
 
-Evitar apresentar tecnologia apenas através de especificações técnicas.
+Evitar comunicação baseada somente em especificações técnicas.
 
-Preferir:
-
-> mostrar o que a tecnologia permite ao paciente.
+A narrativa deve priorizar o benefício para o paciente.
 
 Exemplo:
 
-Em vez de:
+Em vez de comunicar apenas:
 
-“Scanner intraoral sem fio.”
+> Scanner intraoral sem fio.
 
-Preferir estruturar a comunicação em torno de:
+Preferir uma lógica como:
 
-“Precisão digital sem moldagens convencionais.”
+> Precisão digital sem moldagens convencionais.
 
-E posteriormente explicar a tecnologia utilizada.
-
----
-
-# 17. Interface
-
-A interface deverá ser discreta.
-
-Elementos como:
-
-- botões;
-- navegação;
-- cards;
-- menus;
-- indicadores;
-- controles;
-
-não deverão competir visualmente com fotos e conteúdos.
-
-O design deverá priorizar conteúdo sobre interface.
+Depois, quando necessário, explicar qual tecnologia possibilita esse benefício.
 
 ---
 
-# 18. Componentes
+# 13. Linguagem textual
 
-Direção inicial:
-
-### Botões
-
-- simples;
-- elegantes;
-- bom espaço interno;
-- poucos estilos;
-- sem efeitos exagerados.
-
-### Cards
-
-Evitar transformar todo conteúdo em cards.
-
-Utilizar apenas quando houver necessidade funcional clara.
-
-### Bordas
-
-Discretas.
-
-### Sombras
-
-Pouco utilizadas.
-
-Evitar aparência de dashboard ou aplicativo SaaS.
-
-### Cantos
-
-Não exageradamente arredondados.
-
-A geometria deverá conversar com arquitetura e editorial.
-
----
-
-# 19. Animações
-
-As animações devem contribuir para a percepção premium.
-
-Priorizar:
-
-- fade;
-- reveal;
-- movimento suave;
-- parallax discreto;
-- transições cinematográficas;
-- movimentos relacionados ao scroll.
-
-Evitar:
-
-- bounce;
-- animações rápidas;
-- elementos pulando;
-- efeitos chamativos;
-- excesso de movimento simultâneo.
-
-Princípio:
-
-> movimento lento e intencional.
-
----
-
-# 20. Mobile
-
-A experiência premium deverá continuar existindo no mobile.
-
-Não deverá existir uma versão mobile tratada simplesmente como redução da versão desktop.
-
-No mobile:
-
-- fotografias continuam protagonistas;
-- textos permanecem curtos;
-- CTAs ficam acessíveis;
-- animações devem ser reduzidas quando necessário;
-- navegação deve permanecer simples;
-- desempenho deverá ser prioridade.
-
----
-
-# 21. Linguagem textual
-
-A comunicação deverá ser:
+A comunicação da Brunetti deve ser:
 
 - sofisticada;
 - clara;
 - humana;
 - segura;
-- direta.
+- direta;
+- precisa.
 
 Evitar:
 
-- excesso de termos técnicos;
-- textos longos;
+- textos excessivamente longos;
 - exageros comerciais;
-- linguagem popular promocional;
-- “compre agora”;
-- superlativos desnecessários.
+- linguagem promocional popular;
+- superlativos desnecessários;
+- excesso de termos técnicos;
+- chamadas agressivas de venda.
 
-O conteúdo deverá explicar sem parecer uma propaganda agressiva.
+O conteúdo deve comunicar autoridade sem parecer publicidade invasiva.
 
 ---
 
-# 22. Princípios visuais resumidos
+# 14. Princípios de validação da marca
 
-Toda decisão visual deverá passar por estas perguntas:
+Ao adaptar qualquer cena ou elemento do Joia para a Brunetti, avaliar:
 
 ### 1.
-Isso poderia estar no site de qualquer clínica odontológica?
 
-Se sim, precisa ser reconsiderado.
+Isso poderia pertencer ao site de qualquer clínica odontológica?
+
+Se sim, reconsiderar.
 
 ### 2.
-Isso representa o ambiente físico real da Brunetti?
 
-Se sim, provavelmente estamos no caminho correto.
+Isso representa a experiência real da Brunetti?
+
+Se sim, provavelmente está alinhado.
 
 ### 3.
+
 Está tentando parecer luxuoso ou simplesmente parece sofisticado?
 
 Preferir sempre a segunda opção.
 
 ### 4.
+
 Estamos utilizando materiais reais da clínica sempre que possível?
 
 Eles devem ter prioridade.
 
 ### 5.
+
 A tecnologia está ajudando a contar uma história ou apenas aparecendo como especificação?
 
 Priorizar a história.
 
 ---
 
-# 23. Palavras-chave visuais
+# 15. Palavras-chave da marca
 
-Utilizar como referência durante design e desenvolvimento:
+Usar como referência conceitual:
 
-**Editorial**
-
-**Arquitetura**
-
-**Hotelaria**
-
-**Arte**
-
-**Sofisticação**
-
-**Minimalismo**
-
-**Tecnologia**
-
-**Materialidade**
-
-**Exclusividade**
-
-**Humanização**
-
-**Silêncio visual**
-
-**Experiência**
+- Editorial
+- Arquitetura
+- Hotelaria
+- Arte
+- Sofisticação
+- Minimalismo
+- Tecnologia
+- Materialidade
+- Exclusividade
+- Humanização
+- Silêncio visual
+- Experiência
 
 ---
 
-# 24. Regra principal
+# 16. Relação entre Brunetti e Joia
+
+O sistema do Joia define:
+
+- estrutura visual;
+- grid;
+- composição;
+- ritmo;
+- tipografia;
+- escalas;
+- espaçamentos;
+- interações;
+- animações;
+- comportamento de scroll;
+- responsividade;
+- componentes;
+- transições.
+
+A Brunetti define:
+
+- conteúdo;
+- identidade;
+- personalidade;
+- fotografia;
+- materiais;
+- narrativa;
+- tratamentos;
+- profissionais;
+- arquitetura;
+- tecnologia;
+- linguagem.
+
+Portanto:
+
+> Não devemos redesenhar o sistema do Joia para “parecer Brunetti”.
+
+Devemos utilizar o sistema do Joia como estrutura e preenchê-lo com a identidade real da Brunetti.
+
+---
+
+# 17. Regra principal
 
 A interface nunca deverá competir com a própria Brunetti.
 
-O melhor material visual do projeto já existe:
+Os principais ativos visuais do projeto já existem:
 
-**a arquitetura, os detalhes, a tecnologia, a arte e a experiência real da clínica.**
+> a arquitetura, os detalhes, a tecnologia, a arte, as pessoas e a experiência real da clínica.
 
-O design digital deverá organizar, valorizar e apresentar esses elementos.
+O design digital deve organizar, valorizar e apresentar esses elementos.
 
 Não substituí-los.

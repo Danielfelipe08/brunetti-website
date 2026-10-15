@@ -507,3 +507,24 @@ e
 prefira sempre:
 
 `mais clareza`.
+
+
+## 31. Padrão para implementações da Home
+
+- JOIA é a referência principal: reproduzir com máxima fidelidade visual e de interação, sem redesign; adaptar apenas conteúdo, identidade e imagens para Brunetti.
+- Consultar automaticamente `docs/references/joia/joia-reference/JOIA-BRUNETTI-DESIGN-SYSTEM.md`, `docs/references/joia/joia-reference/tokens.json` e `docs/references/joia/visual/`.
+- `docs/01-project-brief.md` e `docs/02-brand-guidelines.md` definem conteúdo e identidade Brunetti. Não usar `docs/legacy`.
+- Usar somente assets reais de `public/brand/brunetti/`.
+- Implementar somente a seção solicitada; não alterar seções anteriores sem pedido explícito.
+- Preservar composição, grid, tipografia, espaçamentos, animações, scroll/pinning e responsividade do JOIA.
+- Rodar lint após cada seção. Não fazer commit sem solicitação.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+## This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->

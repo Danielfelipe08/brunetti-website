@@ -110,6 +110,12 @@
 html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+/* Compensate fixed header height on anchor jumps */
+[id] {
+  scroll-margin-top: clamp(60px, 9vh, 90px);
 }
 
 body {
